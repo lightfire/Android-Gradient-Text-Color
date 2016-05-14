@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="gradientStart" format="color"/>
+    <attr name="gradientEnd" format="color"/>
+
+    <declare-styleable name="GradientButton">
+        <attr name="gradientStart"/>
+        <attr name="gradientEnd"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="GradientTextView">
+        <attr name="gradientStart"/>
+        <attr name="gradientEnd"/>
+    </declare-styleable>
+
+</resources>
