@@ -5,7 +5,7 @@
 
 ### Installation
 
-```xml
+```
 allprojects {
 	repositories {
 		...
@@ -14,9 +14,9 @@ allprojects {
 }
 ```
 
-```xml
+```
 dependencies {
-    compile 'com.github.lightfire:Android-Gradient-Text-Color:6867f7ae0f'
+    compile 'com.github.lightfire:Android-Gradient-Text-Color:b0047755f7'
 }
 ```
 
@@ -72,6 +72,10 @@ dependencies {
 
 
 
+### Warning
+
+##### in GradientTextView or GradientButton
+ ```app:gradientStart```  ```app:gradientEnd``` tags your textColor has no meaning.
 
 
 
